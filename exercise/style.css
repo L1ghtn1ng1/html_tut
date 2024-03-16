@@ -1,0 +1,67 @@
+/* Your CSS code here: */
+
+*{
+    border: 1px solid black;
+}
+
+body{
+    margin: 0px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 90px;
+}
+
+.right img{
+    border-radius: 50%;
+    width: 170px;
+}
+
+.contact-cards{
+    overflow: auto;
+    height: 510px;
+}
+
+.contact-card{
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    height: 120px;
+}
+
+.contact-card img{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.contact-card p{
+    padding-left: 30px;
+}
+
+
+.Friends-filter{
+    text-align: center;
+}
+.left{
+    width: 280px;
+}
+
+.right{
+    width: 620px;
+}
+
+.main{
+    box-shadow: 1px 2px 7px 6px rgba(0,0,0,0.09);
+    width: 900px;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    height: 700px;
+   /* background-color: pink;
+   */
+   border-radius: 10px;
+}
